@@ -1,0 +1,11 @@
+@import url('https://bootswatch.com/5/darkly/bootstrap.min.css');
+
+.card {
+    position: relative;
+    top: 60px;
+    left: 35%;
+}
+
+section.card.text-white.bg-warning {
+    text-align: center;
+}
