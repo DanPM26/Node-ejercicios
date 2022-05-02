@@ -1,18 +1,10 @@
-const btn = document.querySelector('#refresh');
+const calcula = (num1,num2) =>{
+    return num1+num2;
+}
 
-const buscarFrase = async() => {
-    const res = await fetch("https://api.chucknorris.io/jokes/random");
-    console.log(res)
-    const frase = await res.json();
-    console.log(frase.value);
 
-    document.querySelector('#text-content').innerHTML= frase.value;
-  };
-  
+const multiplica = (num3,num4) =>{
+    return num3*num4;
+}
 
-  btn.addEventListener('click',() => {
-      document.querySelector('#text-content').innerHTML = '';
-      buscarFrase();
-  });
-
-  buscarFrase();
+module.exports ={calcula,multiplica}
