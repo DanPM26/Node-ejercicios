@@ -1,0 +1,17 @@
+{
+  "name": "ejercicios-node",
+  "version": "1.0.0",
+  "description": "my first demo node app",
+  "main": "ejer.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "dany"
+  ],
+  "author": "DanyPM",
+  "license": "ISC",
+  "dependencies": {
+    "boostrap": "^2.0.0"
+  }
+}
