@@ -1,11 +1,21 @@
-@import url('https://bootswatch.com/5/darkly/bootstrap.min.css');
+@import url('https://bootswatch.com/5/flatly/bootstrap.min.css');
 
-.card {
-    position: relative;
-    top: 60px;
-    left: 35%;
+.navbar{
+ display: flex;
+justify-content: space-around;
 }
 
-section.card.text-white.bg-warning {
-    text-align: center;
+.card {
+    display: flex;
+    justify-content: space-around;
+}
+
+div,#contenerdor {
+display: flex;
+}
+
+.image {
+    object-fit: cover;
+    width: 100%;
+    height: 300px;
 }
